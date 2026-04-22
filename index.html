@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Into the Odd - Stranarium Tool Offline</title>
+<style>
+:root{--bg:#101214;--panel:#1a1f24;--panel2:#232b33;--text:#f4f1e8;--muted:#b8c0c8;--border:#38424c;--accent:#d7b46a}
+*{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#0e1012,#171b20);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+.wrap{max-width:1200px;margin:0 auto;padding:22px 16px 48px}.hero{margin-bottom:18px}.hero h1{margin:0 0 6px;font-size:2rem}.hero p{margin:0;color:var(--muted);line-height:1.45}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}.btn{width:100%;border:1px solid var(--border);background:var(--panel2);color:var(--text);padding:14px 12px;border-radius:12px;cursor:pointer;font-size:1rem;text-align:left}.btn:hover{border-color:var(--accent)}
+.panel{margin-top:16px;background:rgba(26,31,36,.96);border:1px solid var(--border);border-radius:16px;padding:16px;box-shadow:0 10px 28px rgba(0,0,0,.22)}
+pre{margin:0;white-space:pre-wrap;word-break:break-word;font:15px/1.5 Consolas,monospace}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.small{padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:var(--panel2);color:var(--text);cursor:pointer}
+.small:hover{border-color:var(--accent)} .tag{display:inline-block;border:1px solid var(--border);border-radius:999px;padding:6px 10px;margin-bottom:8px;color:#8ac4ff}.foot{margin-top:16px;color:var(--muted);font-size:.95rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>Into the Odd - Stranarium Tool</h1>
+    <p>Versione offline in JavaScript. Nessun server richiesto: tutta la logica è locale nel file <code>app.js</code>.</p>
+  </div>
+  <div class="grid">
+    <button class="btn" onclick="runGen('monster')">Genera Mostro</button>
+    <button class="btn" onclick="runGen('npc')">Genera NPC</button>
+    <button class="btn" onclick="runGen('delibera')">Genera Delibera del Consiglio Comunale</button>
+    <button class="btn" onclick="runGen('event')">Che gli è successo?</button>
+    <button class="btn" onclick="runGen('street')">Come sono le strade?</button>
+    <button class="btn" onclick="runGen('underground')">C'è qualche passaggio per il sottosuolo?</button>
+    <button class="btn" onclick="runGen('route')">Percorso più veloce per attraversare la città</button>
+    <button class="btn" onclick="runGen('company')">Genera grande azienda</button>
+    <button class="btn" onclick="runGen('cult')">Culto astrale</button>
+    <button class="btn" onclick="runGen('shadows')">Cosa si cela tra le ombre?</button>
+    <button class="btn" onclick="runGen('loot')">Genera bottino</button>
+    <button class="btn" onclick="runGen('arcana_minor')">Genera Arcana minore (d66)</button>
+    <button class="btn" onclick="runGen('arcana_superior')">Genera Arcana superiore</button>
+    <button class="btn" onclick="runGen('arcana_legendary')">Genera Arcana leggendario</button>
+    <button class="btn" onclick="runGen('eaten')">Sì, ho mangiato quella roba...</button>
+    <button class="btn" onclick="runGen('is_arcanum')">Quello è un Arcanum?</button>
+  </div>
+  <div class="panel">
+    <div class="tag">Output</div>
+    <pre id="out">Premi un pulsante per generare.</pre>
+    <div class="toolbar">
+      <button class="small" onclick="copyOut()">Copia</button>
+      <button class="small" onclick="clearOut()">Pulisci</button>
+    </div>
+    <div class="foot">Piove®</div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
