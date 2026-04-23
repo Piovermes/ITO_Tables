@@ -3655,7 +3655,56 @@ const DATA = {
     [64,"Piuma di Scrittura Automatica — Scrive da sola ciò che le persone dicono nel raggio di 10 metri, anche se sussurrato."],
     [65,"Stivali Silenziosi e Sanguinanti — Non fai rumore camminando, ma lasci impronte di sangue fresco ovunque."],
     [66,"Il Cuore del Dungeon — Un motore a vapore grande come un pugno. Se distrutto, il dungeon crolla in 1d10 minuti."]
-  ]
+  ],
+  "POCKET_LOOT": [
+  "3D6 Scellini",
+  "Un’Arma a una Mano",
+  "Mappa del tesoro",
+  "Sostanza strana",
+  "Lettera",
+  "Bottiglia di alcol",
+  "Una bomba",
+  "Atto di proprietà",
+  "Un uovo",
+  "Lanugine da tasca",
+  "Gioiello",
+  "Tira due volte"
+],
+
+"POCKET_SUBSTANCE": [
+  "Narcotico",
+  "Veleno",
+  "Spezia rara",
+  "Resti organici inquietanti"
+],
+
+"POCKET_LETTER": [
+  "Lettera d’amore",
+  "Lettera di ricatto",
+  "Corrispondenza d’affari",
+  "Posta inutile"
+],
+
+"POCKET_DEED": [
+  "Atto di proprietà di un mulo o di un cane",
+  "Atto di proprietà di una piccola barca",
+  "Atto di proprietà di un appartamento minuscolo",
+  "Atto di proprietà di un’attività in fallimento"
+],
+
+"POCKET_EGG": [
+  "Uovo di gallina sterile",
+  "Uovo di uccello",
+  "Uovo di rettile",
+  "Uovo mostruoso"
+],
+
+"POCKET_JEWELLERY": [
+  "Gioiello prezioso",
+  "Gioiello che è un Arcana",
+  "Falso ben fatto",
+  "Gioiello di valore sentimentale"
+]
 };
 
 
@@ -3960,6 +4009,68 @@ ${relic.value}
 `);
 }
 
+function rollOnList(list) {
+  return choice(list);
+}
+
+function generatePocketLootResult(depth = 0) {
+  const result = rollOnList(DATA.POCKET_LOOT);
+
+  if (depth > 3) return "Tasche piene di cianfrusaglie senza valore";
+
+  switch (result) {
+    case "3D6 Scellini":
+      return `${roll(3, 6)} Scellini`;
+
+    case "Un’Arma a una Mano":
+      return "Un’Arma a una Mano";
+
+    case "Mappa del tesoro":
+      return "Mappa del tesoro (incompleta, criptica o macchiata)";
+
+    case "Sostanza strana":
+      return `Sostanza strana: ${rollOnList(DATA.POCKET_SUBSTANCE)}`;
+
+    case "Lettera":
+      return `Lettera: ${rollOnList(DATA.POCKET_LETTER)}`;
+
+    case "Bottiglia di alcol":
+      return "Bottiglia di alcol";
+
+    case "Una bomba":
+      return "Una bomba";
+
+    case "Atto di proprietà":
+      return rollOnList(DATA.POCKET_DEED);
+
+    case "Un uovo":
+      return rollOnList(DATA.POCKET_EGG);
+
+    case "Lanugine da tasca":
+      return "Lanugine da tasca";
+
+    case "Gioiello":
+      return `Gioiello: ${rollOnList(DATA.POCKET_JEWELLERY)}`;
+
+    case "Tira due volte": {
+      const first = generatePocketLootResult(depth + 1);
+      const second = generatePocketLootResult(depth + 1);
+      return `${first}\n${second}`;
+    }
+
+    default:
+      return result;
+  }
+}
+
+function generatePocketLoot() {
+  return clean(`
+GENERATORE POCKET LOOT
+
+${generatePocketLootResult()}
+`);
+}
+
 const GENERATORS = {
   monster: generateMonster,
   npc: generateNpc,
@@ -3978,6 +4089,7 @@ const GENERATORS = {
   eaten: generateEatenThatThing,
   is_arcanum: generateIsItArcanum,
   dungeon: generateDungeon,
+  pocket_loot: generatePocketLoot,
 };
 
 function outputEl() {
