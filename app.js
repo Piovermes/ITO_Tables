@@ -3704,6 +3704,161 @@ const DATA = {
   "Gioiello che è un Arcana",
   "Falso ben fatto",
   "Gioiello di valore sentimentale"
+],
+  "ROOM_FUNCTION_D66": [
+  [11, "Ingresso inquietante"],
+  [12, "Anticamera o filtro"],
+  [13, "Ostacolo fisico"],
+  [14, "Ostacolo ambientale"],
+  [15, "Ostacolo sociale"],
+  [16, "Accesso bloccato"],
+  [21, "Snodo con più uscite"],
+  [22, "Scorciatoia nascosta"],
+  [23, "Vicolo cieco con indizio"],
+  [24, "Punto d'osservazione"],
+  [25, "Riposo rischioso"],
+  [26, "Deposito o magazzino"],
+  [31, "Laboratorio o officina"],
+  [32, "Cappella o luogo rituale"],
+  [33, "Sala di trasformazione"],
+  [34, "Prigione o contenimento"],
+  [35, "Nido o tana"],
+  [36, "Incubazione o nursery"],
+  [41, "Tesoro esposto"],
+  [42, "Esca o tentazione"],
+  [43, "Trappola evidente"],
+  [44, "Trappola nascosta ma intuibile"],
+  [45, "Luogo di trattativa"],
+  [46, "Luogo di sacrificio"],
+  [51, "Guardia o pattuglia fissa"],
+  [52, "Dormitorio o bivacco"],
+  [53, "Macchinario centrale"],
+  [54, "Fonte di energia o fluido"],
+  [55, "Archivio o memoria"],
+  [56, "Sala di comando"],
+  [61, "Arena per scontro"],
+  [62, "Climax locale"],
+  [63, "Accesso al livello sotto"],
+  [64, "Accesso al livello sopra"],
+  [65, "Uscita alternativa"],
+  [66, "Camera del non doveva esserci"]
+],
+
+"ROOM_DOMINANT_D66": [
+  [11, "Pozzo nero"],
+  [12, "Vasca di liquido tiepido"],
+  [13, "Vasca di liquido gelido"],
+  [14, "Statua incrinata"],
+  [15, "Statua senza volto"],
+  [16, "Grande specchio annerito"],
+  [21, "Porta metallica massiccia"],
+  [22, "Porta di pietra scolpita"],
+  [23, "Grata sul pavimento"],
+  [24, "Grata sul soffitto"],
+  [25, "Macchinario a pistoni"],
+  [26, "Tubature che cantano"],
+  [31, "Catene sospese"],
+  [32, "Gabbia aperta"],
+  [33, "Gabbia chiusa con qualcosa dentro"],
+  [34, "Altare di metallo"],
+  [35, "Altare di osso o corallo"],
+  [36, "Tavolo operatorio"],
+  [41, "Mucchio di rottami"],
+  [42, "Mucchio di resti"],
+  [43, "Vegetazione innaturale"],
+  [44, "Funghi o muffe pulsanti"],
+  [45, "Pavimento a mosaico"],
+  [46, "Pavimento trasparente"],
+  [51, "Ponte stretto"],
+  [52, "Fossa larga"],
+  [53, "Colonna spezzata"],
+  [54, "Colonna cava e risonante"],
+  [55, "Vetrata o parete trasparente"],
+  [56, "Trono o sedia rituale"],
+  [61, "Registri, dischi o incisioni"],
+  [62, "Fuoco che non scalda"],
+  [63, "Nebbia bassa e densa"],
+  [64, "Luce impossibile o colore sbagliato"],
+  [65, "Cadavere intatto e troppo recente"],
+  [66, "Oggetto minuscolo ma evidentemente importante"]
+],
+
+"ROOM_TENSION_D66": [
+  [11, "Attraversarla fa rumore"],
+  [12, "Restarci troppo attira un incontro"],
+  [13, "Il pavimento cede a tratti"],
+  [14, "L'aria toglie il respiro"],
+  [15, "Il calore aumenta ogni minuto"],
+  [16, "Il freddo intorpidisce mani e pensieri"],
+  [21, "Qualcosa osserva ma non attacca subito"],
+  [22, "Qualcosa imita voci o suoni"],
+  [23, "Toccare la parete attiva una reazione"],
+  [24, "Toccare l'oggetto principale attiva una reazione"],
+  [25, "La stanza si chiude se fai la scelta sbagliata"],
+  [26, "La stanza si allaga lentamente"],
+  [31, "Una creatura dorme qui"],
+  [32, "Una creatura è intrappolata qui"],
+  [33, "Una creatura vuole un patto"],
+  [34, "Una creatura vuole solo essere lasciata in pace"],
+  [35, "Una creatura difende un confine"],
+  [36, "Una creatura difende un oggetto"],
+  [41, "Per ottenere qualcosa bisogna entrare in un'area pericolosa"],
+  [42, "Per uscire in fretta bisogna lasciare indietro qualcosa"],
+  [43, "Per passare indenni bisogna rompere qualcosa di prezioso"],
+  [44, "Per passare indenni bisogna fare molto rumore"],
+  [45, "Per capire la stanza bisogna correre un rischio mentale"],
+  [46, "Per capire la stanza bisogna correre un rischio fisico"],
+  [51, "Un effetto si attiva solo alla luce"],
+  [52, "Un effetto si attiva solo nel buio"],
+  [53, "Il metallo qui diventa pericoloso"],
+  [54, "Il sangue qui ha una funzione pratica"],
+  [55, "Le ombre qui si comportano male"],
+  [56, "I riflessi qui mentono"],
+  [61, "La stanza promette una scorciatoia ma chiede un prezzo"],
+  [62, "La stanza promette riposo ma espone al pericolo"],
+  [63, "La stanza separa facilmente il gruppo"],
+  [64, "La stanza costringe a scegliere tra bottino e sicurezza"],
+  [65, "La stanza cambia dopo il primo uso"],
+  [66, "La stanza peggiora se si esita"]
+],
+
+"ROOM_REWARD_D66": [
+  [11, "Bottino semplice ma utile"],
+  [12, "Bottino prezioso ma ingombrante"],
+  [13, "Pocket loot su un cadavere"],
+  [14, "Arma lasciata da qualcuno"],
+  [15, "Strumenti utili all'esplorazione"],
+  [16, "Sostanza strana da identificare"],
+  [21, "Mappa incompleta"],
+  [22, "Indizio sul livello successivo"],
+  [23, "Indizio sul boss o mostro principale"],
+  [24, "Indizio su un passaggio nascosto"],
+  [25, "Indizio su una debolezza"],
+  [26, "Nome o simbolo di una fazione"],
+  [31, "Scorciatoia permanente"],
+  [32, "Scorciatoia a uso singolo"],
+  [33, "Accesso a una stanza altrimenti irraggiungibile"],
+  [34, "Possibilità di chiudere fuori un nemico"],
+  [35, "Punto difendibile per riposo breve"],
+  [36, "Nuova via di fuga"],
+  [41, "Mutazione lieve ma utile"],
+  [42, "Mutazione lieve ma inquietante"],
+  [43, "Danno immediato ma progresso"],
+  [44, "Perdita di FOR ma progresso"],
+  [45, "Perdita di DES ma progresso"],
+  [46, "Perdita di VOL ma progresso"],
+  [51, "Si libera qualcosa che non doveva uscire"],
+  [52, "Si spegne qualcosa che teneva in equilibrio il dungeon"],
+  [53, "Si attiva un conto alla rovescia implicito"],
+  [54, "Si richiama un incontro vicino"],
+  [55, "Aiuto temporaneo di una creatura"],
+  [56, "Una verità scomoda"],
+  [61, "Arcana minore o reliquia minore"],
+  [62, "Oggetto apparentemente inutile ma con forte potenziale"],
+  [63, "Il bottino è maledetto o tracciabile"],
+  [64, "La stanza cambia configurazione dopo l'interazione"],
+  [65, "L'intero livello reagisce diversamente ai personaggi"],
+  [66, "La stanza rivela il vero tema del dungeon"]
 ]
 };
 
@@ -4071,6 +4226,168 @@ ${generatePocketLootResult()}
 `);
 }
 
+function rollOnD66Table(table) {
+  const code = rollD66();
+  const found = table.find(([k]) => k === code);
+  if (!found) throw new Error(`Nessuna voce per d66=${code}`);
+  return { code, value: found[1] };
+}
+
+function dungeonRoomTitle(func, dominant) {
+  const a = func.toLowerCase();
+  const b = dominant.toLowerCase();
+
+  if (a.includes("ingresso")) return `Ingresso del ${b}`;
+  if (a.includes("climax")) return `Cuore del ${b}`;
+  if (a.includes("tesoro")) return `Tesoro del ${b}`;
+  if (a.includes("laboratorio")) return `Officina del ${b}`;
+  if (a.includes("cappella")) return `Cappella del ${b}`;
+  if (a.includes("prigione")) return `Prigione del ${b}`;
+  if (a.includes("nido")) return `Tana del ${b}`;
+  if (a.includes("archivio")) return `Archivio del ${b}`;
+  if (a.includes("sala di comando")) return `Sala di Comando del ${b}`;
+
+  return `${func}: ${dominant}`;
+}
+
+function generateDungeonMap(totalRooms) {
+  const branchCandidates = [];
+  for (let i = 1; i < totalRooms - 1; i++) {
+    branchCandidates.push(i + 1);
+  }
+
+  const branchRooms = [];
+
+  if (totalRooms >= 5 && branchCandidates.length) {
+    branchRooms.push(choice(branchCandidates));
+  }
+
+  if (totalRooms >= 7 && branchCandidates.length > 1) {
+    let second = choice(branchCandidates);
+    while (branchRooms.includes(second)) {
+      second = choice(branchCandidates);
+    }
+    branchRooms.push(second);
+  }
+
+  return branchRooms.sort((a, b) => a - b);
+}
+
+function exitsForRoom(index, total, branchRooms) {
+  const exits = [];
+
+  if (index < total - 1) exits.push(`Passaggio verso Stanza ${index + 2}`);
+  if (index > 0) exits.push(`Ritorno verso Stanza ${index}`);
+
+  if (branchRooms.includes(index + 1)) {
+    exits.push(`Uscita secondaria verso una stanza laterale o scorciatoia`);
+  }
+
+  return exits;
+}
+
+function generateSingleRoom(index, total, themeBits, fixedFunction = null) {
+  const func = fixedFunction
+    ? { code: null, value: fixedFunction }
+    : rollOnD66Table(DATA.ROOM_FUNCTION_D66);
+
+  const dom = rollOnD66Table(DATA.ROOM_DOMINANT_D66);
+  const ten = rollOnD66Table(DATA.ROOM_TENSION_D66);
+  const rew = rollOnD66Table(DATA.ROOM_REWARD_D66);
+
+  const title = dungeonRoomTitle(func.value, dom.value);
+
+  const visible = [
+    `${dom.value}.`,
+    `${themeBits.atmosfera}`,
+    `Tracce del tema: ${themeBits.tema.toLowerCase()}.`
+  ];
+
+  const hooks = [
+    `${ten.value}.`,
+    `${rew.value}.`
+  ];
+
+  return {
+    n: index + 1,
+    title,
+    func: func.value,
+    dominant: dom.value,
+    tension: ten.value,
+    reward: rew.value,
+    visible,
+    hooks
+  };
+}
+
+function generateDungeon2() {
+  const t1 = choiceD66Entries(DATA.DUNGEON_THEME_ATMOSPHERE);
+  const t2 = choiceD66Entries(DATA.DUNGEON_THEME_ATMOSPHERE);
+  const odd = choiceD66Entries(DATA.DUNGEON_ODD);
+  const relic = choiceD66Entries(DATA.DUNGEON_RELICS);
+
+  const [tema] = splitDungeonTheme(t1.value);
+  const [, atmosfera] = splitDungeonTheme(t2.value);
+
+  const roomCount = randint(3, 9);
+  const branchRooms = generateDungeonMap(roomCount);
+  const rooms = [];
+
+  for (let i = 0; i < roomCount; i++) {
+    let fixed = null;
+
+    if (i === 0) {
+      fixed = "Ingresso inquietante";
+    } else if (i === roomCount - 1) {
+      fixed = "Climax locale";
+    } else if (i === roomCount - 2 && randint(1, 2) === 1) {
+      fixed = "Sala di comando";
+    }
+
+    rooms.push(generateSingleRoom(i, roomCount, { tema, atmosfera }, fixed));
+  }
+
+  const roomText = rooms.map((room, idx) => {
+    const exits = exitsForRoom(idx, roomCount, branchRooms);
+
+    return clean(`
+Stanza ${room.n}: ${room.title}
+• ${room.visible[0]}
+• ${room.visible[1]}
+• ${room.visible[2]}
+• ${room.hooks[0]}
+• ${room.hooks[1]}
+• Uscite: ${exits.join('; ')}.
+`);
+  }).join("\n");
+
+  const intro = `La spedizione entra dalla Stanza 1 e deve spingersi fino alla Stanza ${roomCount}, che funge da finale locale.`;
+  const finale = `Il climax si trova nella Stanza ${roomCount}; lì dovresti piazzare la minaccia maggiore, la verità sul luogo o il prezzo finale per uscirne.`;
+
+  return clean(`
+GENERATORE DUNGEON COMPLETO
+
+Tema [d66 ${t1.code}]: ${tema}
+Atmosfera dominante [d66 ${t2.code}]: ${atmosfera}
+
+Anomalia ambientale [d66 ${odd.code}]:
+${odd.value}
+
+Reliquia / Arnese / Detrito [d66 ${relic.code}]:
+${relic.value}
+
+Struttura:
+• Numero stanze: ${roomCount}
+• Stanze con uscite laterali / scorciatoie: ${branchRooms.length ? branchRooms.map(n => `Stanza ${n}`).join(", ") : "nessuna"}
+
+${intro}
+
+${roomText}
+
+${finale}
+`);
+}
+
 const GENERATORS = {
   monster: generateMonster,
   npc: generateNpc,
@@ -4090,6 +4407,7 @@ const GENERATORS = {
   is_arcanum: generateIsItArcanum,
   dungeon: generateDungeon,
   pocket_loot: generatePocketLoot,
+  dungeon2: generateDungeon2,
 };
 
 function outputEl() {
