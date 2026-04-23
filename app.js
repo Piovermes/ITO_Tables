@@ -3539,6 +3539,122 @@ const DATA = {
     "Quando e ferito emette un verso che richiama altra roba simile.",
     "Lascia dietro di se una scia innaturale e appiccicosa.",
     "A riposo sembra un oggetto o un relitto qualunque."
+  ],
+  "DUNGEON_THEME_ATMOSPHERE": [
+    [11,"Cimitero di Macchine a Vapore — Caldaie colossali come balene spiaggiate, sibili di pressione residua."],
+    [12,"Laboratorio di Tassidermia Elettrica — Creature cucite insieme che sussultano a ogni fulmine sotterraneo."],
+    [13,"Fabbrica di Carne Sintetica — Vasche di crescita, odore di ferro e formaldeide, nastri trasportatori organici."],
+    [14,"Osservatorio del Vuoto Interno — Telescopi puntati verso il centro della terra per spiare stelle oscure."],
+    [15,"Archivio dei Sussurri — Migliaia di dischi di cera che riproducono confessioni di criminali morti."],
+    [16,"Tempio del Dio Ingranaggio — Architettura rotante; ogni ora le stanze cambiano posizione con un boato."],
+    [21,"Miniera di Memorie Cristallizzate — Pareti di quarzo che, se toccate, proiettano ologrammi del passato."],
+    [22,"Prigione Statica Verticale — Celle sospese nel vuoto sopra un pozzo senza fondo di nebbia acida."],
+    [23,"Colonia di Muffa Burocratica — Uffici invasi da funghi che hanno imparato a timbrare documenti inutili."],
+    [24,"Harem di Automi Arrugginiti — Danzatori meccanici che continuano a esibirsi per una platea di polvere."],
+    [25,"Distilleria di Emozioni Liquide — Alambicchi che estraggono Malinconia o Furore dai visitatori."],
+    [26,"Cantiere di un Dio di Latta — Lo scheletro di una divinità artificiale alta 100 metri, mai completata."],
+    [31,"Metropolitana delle Dimensioni — Binari che portano in posti che non esistono più; treni fantasma."],
+    [32,"Sanatorio del Colore Impossibile — Luci al neon di tonalità che fanno sanguinare gli occhi e mutare la pelle."],
+    [33,"Banca del Sangue e dei Nomi — Caveau dove si conservano l’identità legale e il plasma delle élite."],
+    [34,"Foresta di Vetro Idroponica — Piante trasparenti che si nutrono di calore psichico invece che di luce."],
+    [35,"Teatro Anatomico Permanente — Una platea di scheletri che osserva un tavolo operatorio senziente."],
+    [36,"Discarica di Realtà Scartate — Oggetti, stanze e persone cancellate dalla storia che si accumulano qui."],
+    [41,"Cattedrale del Telegrafo — Migliaia di cavi che ronzano; le preghiere sono inviate tramite codice Morse."],
+    [42,"Mattatoio di Costrutti — Una montagna di arti di metallo, ingranaggi e olio nero venoso."],
+    [43,"Serra di Insetti Meccanici — Alveari di ottone che producono miele magnetico e sciami ronzanti."],
+    [44,"Ufficio Postale del Limbo — Milioni di lettere mai consegnate che formano labirinti di carta."],
+    [45,"Fonderia di Ombre — Dove le ombre vengono staccate dai corpi e vendute come servitori."],
+    [46,"Mausoleo dell’Industriale Folle — Una tomba piena di prototipi falliti che cercano ancora di uccidere."],
+    [51,"Nido di Parassiti Stellari — Una zona dove il soffitto è sparito, rivelando uno spazio alieno e freddo."],
+    [52,"Stazione di Pompaggio di Incubi — Enormi turbine che estraggono il terrore dai sognatori della città sopra."],
+    [53,"Museo dei Momenti Congelati — Stanze dove il tempo è fermo; proiettili e cadute sono sospesi nell’aria."],
+    [54,"Albergo per Viaggiatori Astrali — Camere da letto lussuose, ma gli ospiti sono solo proiezioni ectoplasmiche."],
+    [55,"Scavo Archeologico Inverso — Un dungeon che sta venendo costruito dal basso verso l’alto da macchine cieche."],
+    [56,"Santuario della Geometria Sacra — Angoli impossibili che causano nausea e permettono di camminare sui muri."],
+    [61,"Ventre della Grande Macchina — Pistoni massicci come palazzi, calore insopportabile, ritmo cardiaco."],
+    [62,"Cimitero di Idee Morte — Statue di concetti dimenticati; l’aria è densa di amnesia chimica."],
+    [63,"Colonia Penale di Cloni Falliti — Decine di versioni identiche della stessa persona, tutte degenerate."],
+    [64,"Bazar del Mercato Nero Psichico — Stand vuoti che vendono sogni, fobie e talenti in bottiglia."],
+    [65,"Laboratorio di Ibridazione Pianta-Uomo — Radici che pulsano sangue e fiori che parlano con voci familiari."],
+    [66,"Il Cuore dell’Anomalia — Una zona dove le leggi della fisica cambiano ogni volta che si apre una porta."]
+  ],
+
+  "DUNGEON_ODD": [
+    [11,"Vapore mnemonico — Una perdita da un tubo rilascia gas che fa rivivere a tutti lo stesso ricordo d’infanzia, ma non il loro."],
+    [12,"Gravità orizzontale — In questa zona la giù è la parete nord. Cadere significa schiantarsi contro il muro."],
+    [13,"Polvere d’oro falso — Copre tutto. È bellissima, ma se inalata fa crescere piccoli cristalli nei polmoni."],
+    [14,"L’Eco ritardato — I suoni prodotti qui tornano dopo esattamente 1 minuto, sovrapponendosi al presente."],
+    [15,"Ombre solide — Le ombre proiettate dagli oggetti hanno massa e intralciano il movimento come ostacoli fisici."],
+    [16,"Muffa telegrafica — Funghi che crescono in linee rette; se calpestati, inviano un segnale elettrico ai guardiani."],
+    [21,"Orologi sincronizzati — Centinaia di pendoli alle pareti. Se uno viene fermato, un personaggio perde la capacità di muoversi."],
+    [22,"Luce liquida — Una sostanza fosforescente che cola dal soffitto; illumina bene, ma attira parassiti invisibili."],
+    [23,"Area a bassa risoluzione — Tutto appare sfuocato e a cubetti. È difficile distinguere un amico da un mostro."],
+    [24,"Vento di cenere calda — Trasporta frammenti di banconote fuori corso e vecchi giornali che annunciano la fine del mondo."],
+    [25,"Pozza specchiante inversa — Riflette i personaggi, ma i riflessi cercano attivamente di uscire dall’acqua per scappare."],
+    [26,"Porta a pagamento — Non accetta monete, ma esperienze. Devi sussurrare un segreto mai detto a nessuno per aprirla."],
+    [31,"Architettura di carne — Una stanza dove le pareti hanno la temperatura e la consistenza della pelle umana."],
+    [32,"Pioggia di bulloni — Piccoli pezzi metallici cadono verso l’alto, dal pavimento al soffitto."],
+    [33,"Insetti-lampadina — Grandi falene che emettono una luce violetta che rivela lo scheletro di chiunque la colpisca."],
+    [34,"Radiofonia ossea — Le ossa dei personaggi vibrano trasmettendo una stazione radio che trasmette solo urla e jazz."],
+    [35,"Geometria non euclidea — Una stanza che sembra piccola da fuori, ma richiede 10 minuti di cammino per essere attraversata."],
+    [36,"Tappezzeria mutante — I motivi floreali cambiano per mimare i volti dei parenti dei personaggi."],
+    [41,"Sabbie mobili di velluto — Sembra un tappeto lussuoso, ma chi ci cammina sopra inizia lentamente ad affondare."],
+    [42,"Odore di ozono e agrumi — Preannuncia una scarica statica che brucia i peli del corpo ma ricarica le batterie."],
+    [43,"Il Coro dei Tubi — Le tubature cantano un inno religioso ininterrotto che impedisce il riposo."],
+    [44,"Statue di vetro ripiene — Sculture trasparenti che contengono organi umani pulsanti all’interno."],
+    [45,"Freddo concettuale — Non è la temperatura a scendere, è l’idea stessa di calore che svanisce; i fuochi non scaldano."],
+    [46,"Neon parassiti — Tubi luminosi che fluttuano e si nutrono della luce delle torce dei giocatori."],
+    [51,"Corridoio dei sosia — Specchi che mostrano i personaggi più vecchi di 30 anni e con protesi meccaniche."],
+    [52,"Pressione idraulica sociale — Più persone ci sono nella stanza, più diventa difficile respirare."],
+    [53,"Pavimento magnetico — Chi indossa armature o armi pesanti si muove a velocità dimezzata e fa un rumore infernale."],
+    [54,"Nebbia di inchiostro — Una nebbia nera che macchia permanentemente tutto ciò che tocca, pelle inclusa."],
+    [55,"Vegetazione d’ottone — Piante che sembrano metalliche ma crescono, fioriscono e ruggiscono se potate."],
+    [56,"Il soffitto è un cielo — Invece del soffitto c’è una vista perfetta delle stelle, anche se si è a chilometri di profondità."],
+    [61,"Zona di onestà chimica — Un gas che impedisce fisicamente alle corde vocali di pronunciare menzogne."],
+    [62,"Macchinari orfani — Enormi pistoni che lavorano senza scopo, alimentati dal nulla, producendo un ritmo ipnotico."],
+    [63,"Pietre galleggianti — Frammenti di pavimento che fluttuano in un vuoto apparentemente senza fondo."],
+    [64,"Muffa del sonno — Se tocchi le pareti, devi superare un Save di WIL o addormentarti istantaneamente per 1d6 turni."],
+    [65,"Riflessi ritardatari — Ti guardi allo specchio e il tuo riflesso finisce di lavarsi i denti prima di imitarti."],
+    [66,"Il Nucleo dell’Anomalia — La realtà si sfalda; tira due volte su questa tabella e combina i risultati in modo orribile."]
+  ],
+
+  "DUNGEON_RELICS": [
+    [11,"Monocolo del Colpevole — Permette di vedere le impronte digitali recenti, ma rende chi lo indossa daltonico per 1d6 ore."],
+    [12,"Siringa di Adrenalina Nera — Ripristina 1d6 STR istantaneamente, ma la pelle diventa grigio antracite per sempre."],
+    [13,"Radio a Manovella Astrale — Se sintonizzata, capta i pensieri della creatura più vicina, disturbati da rumore statico."],
+    [14,"Boccetta di Vuoto Spray — Spruzza una sostanza nera che cancella fisicamente 10 cm di materia."],
+    [15,"Chiave di Ossa Idraulica — Apre qualsiasi serratura meccanica, ma emette un urlo umano udibile in tutto il dungeon."],
+    [16,"Cubo di Gravità Tascabile — Se premuto, cade verso l’alto. Può sollevare fino a 100 kg prima di scaricarsi."],
+    [21,"Pillole di Ferro-Luce — I bulbi oculari emettono luce come torce per 1h. Provoca forti emicranie."],
+    [22,"Guanto del Tassidermista — Permette di rianimare un piccolo animale morto per 10 minuti. L’animale è ostile."],
+    [23,"Sigaretta dell’Ultimo Desiderio — Mentre fumata, nessuno può attaccarti. Dura 3 turni. Ti lascia un sapore di cenere eterna."],
+    [24,"Bussola delle Intenzioni — Punta verso la creatura che ha più voglia di ucciderti nel raggio di 50 metri."],
+    [25,"Martello che Dimentica — Se colpisce un oggetto, lo rende fragile come vetro per 1 secondo. Si rompe dopo 3 usi."],
+    [26,"Parassita Mentale in Barattolo — Se mangiato, impari una lingua antica ma dimentichi la tua lingua madre per 24h."],
+    [31,"Mantello di Ragnatela d’Acciaio — Estremamente resistente (Armor 1), ma se si bagna diventa pesante 50 kg."],
+    [32,"Fischietto Sub-Sonico — Solo i cani e i mostri con udito fine lo sentono; li fa scappare o li infuria (50/50)."],
+    [33,"Occhiali da Vero Io — Vedi attraverso i travestimenti, ma vedi anche gli scheletri delle persone amate."],
+    [34,"Candela di Ectoplasma — La sua fiamma è fredda e permette di toccare i fantasmi come se fossero solidi."],
+    [35,"Manette del Paradosso — Se chiuse su qualcuno, chi le ha chiuse sente lo stesso dolore del prigioniero."],
+    [36,"Maschera a Gas dei Morti — Permette di respirare sott’acqua o nel veleno, ma senti costantemente voci che ti insultano."],
+    [41,"Grasso di Anguilla Elettrica — Rende una superficie scivolosa e fulmina chiunque la tocchi con metallo."],
+    [42,"Orologio Fermatempo Rotto — Ferma il tempo per 5 secondi, ma invecchi di 1 anno ogni volta che lo usi."],
+    [43,"Pistola a Chiodi Magnetica — I chiodi deviano verso il metallo più vicino."],
+    [44,"Specchio Portatile del Passato — Mostra la stanza come era 10 minuti fa. Utile per vedere chi è passato."],
+    [45,"Polvere di Invisibilità Sociale — Non diventi invisibile, ma la gente ti ignora come se fossi un cameriere o polvere."],
+    [46,"Vite di Architettura — Se avvitata in un muro, crea un foro di 2 metri perfetto per spiare o fuggire."],
+    [51,"Ampolla di Sangue Divino — Se bevuta, diventi un gigante per 1 turno (d12 danni), poi svieni per 1 ora."],
+    [52,"Diapason della Distruzione — Se fatto vibrare contro un macchinario, ne svita istantaneamente tutti i bulloni."],
+    [53,"Ombrello Anti-Magia — Protegge dagli effetti arcani diretti, ma attira i fulmini naturali."],
+    [54,"Mappa di Pelle Umana — Si tatua sulla pelle del braccio del portatore e mostra le trappole."],
+    [55,"Colla Istantanea Molecolare — Incolla due cose per sempre. Solo l’acido forte o l’amputazione può separarle."],
+    [56,"Dente di Drago di Latta — Se piantato nel terreno, genera un soldato meccanico fragile che obbedisce a 1 ordine."],
+    [61,"Lampada a Buio — Invece di far luce, proietta un cono di oscurità assoluta in una stanza illuminata."],
+    [62,"Liquore di Memoria — Bevendolo ricordi perfettamente un evento che non hai mai vissuto."],
+    [63,"Moneta a Due Teste Vere — Se lanciata, cade sempre sul bordo. Confonde chiunque la guardi."],
+    [64,"Piuma di Scrittura Automatica — Scrive da sola ciò che le persone dicono nel raggio di 10 metri, anche se sussurrato."],
+    [65,"Stivali Silenziosi e Sanguinanti — Non fai rumore camminando, ma lasci impronte di sangue fresco ovunque."],
+    [66,"Il Cuore del Dungeon — Un motore a vapore grande come un pugno. Se distrutto, il dungeon crolla in 1d10 minuti."]
   ]
 };
 
@@ -3578,6 +3694,18 @@ function rollOnD100(table) {
 
 function rollD66() {
   return randint(1, 6) * 10 + randint(1, 6);
+}
+
+function choiceD66Entries(entries) {
+  const code = rollD66();
+  const found = entries.find(([k]) => k === code);
+  if (!found) throw new Error(`Nessuna voce per d66=${code}`);
+  return { code, value: found[1] };
+}
+
+function splitDungeonTheme(text) {
+  const idx = text.indexOf(" — ");
+  return [text.slice(0, idx).trim(), text.slice(idx + 3).trim()];
 }
 
 function clean(s) {
@@ -3808,6 +3936,29 @@ Potere: ${potere}
 `);
 }
 
+function generateDungeon() {
+  const t1 = choiceD66Entries(DATA.DUNGEON_THEME_ATMOSPHERE);
+  const t2 = choiceD66Entries(DATA.DUNGEON_THEME_ATMOSPHERE);
+  const odd = choiceD66Entries(DATA.DUNGEON_ODD);
+  const relic = choiceD66Entries(DATA.DUNGEON_RELICS);
+
+  const [tema] = splitDungeonTheme(t1.value);
+  const [, atmosfera] = splitDungeonTheme(t2.value);
+
+  return clean(`
+GENERATORE DUNGEON
+
+Tema [d66 ${t1.code}]: ${tema}
+Atmosfera dominante [d66 ${t2.code}]: ${atmosfera}
+
+Anomalia ambientale [d66 ${odd.code}]:
+${odd.value}
+
+Reliquia / Arnese / Detrito [d66 ${relic.code}]:
+${relic.value}
+`);
+}
+
 const GENERATORS = {
   monster: generateMonster,
   npc: generateNpc,
@@ -3825,6 +3976,7 @@ const GENERATORS = {
   arcana_legendary: generateLegendaryArcana,
   eaten: generateEatenThatThing,
   is_arcanum: generateIsItArcanum,
+  dungeon: generateDungeon,
 };
 
 function outputEl() {
